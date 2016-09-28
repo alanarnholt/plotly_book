@@ -10,7 +10,7 @@ bookdown::gitbook:
         <li><a href="https://bookdown.org" target="blank">Published with bookdown</a></li>
     download: [pdf, epub, mobi]
     edit:
-      link: https://github.com/cpsievert/plotly_book/edit/master/%s
+      link: https://github.com/alanarnholt/plotly_book/edit/master/%s
       text: "Edit"
     sharing: no
 
@@ -23,3 +23,5 @@ bookdown::pdf_book:
   keep_tex: yes
   latex_engine: xelatex
   citation_package: natbib
+
+output_dir: "docs"
